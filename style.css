@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*, ::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: rgb(4, 29, 49);
+    align-items: center;
+}
+.title{
+    justify-content: center;
+    text-decoration: underline;
+    color: white;
+    margin: 15px;
+}
+#name{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5%;
+    outline: 0;
+    border: 1px solid lightgray;
+    margin: 9%;
+}
+.table{
+    color: white;
+    background-color: rgb(8, 48, 80);
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 5px;
+    /* border: 5px solid white; */
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+    margin: 15px;
+}
